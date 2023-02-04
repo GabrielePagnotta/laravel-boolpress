@@ -1,21 +1,18 @@
 <template>
     <div>
-       <prova :info="Posts"/>
-       <ul>
-        <li v-for="elem in Posts" :key="elem.id">
-        {{ elem.title }}</li>
-       </ul>
+        <Header/>
+        <router-view></router-view>
     </div>
 </template>
 
 <script>
-import prova from '../components/prova.vue'
 
+import Header from '../components/Header.vue'
 
 export default {
     name: "app",
     components:{
-        prova
+        Header
     },
     data() {
         return {

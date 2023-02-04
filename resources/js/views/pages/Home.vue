@@ -1,16 +1,14 @@
 <template>
     <div>
-
+        <h1>Homepage</h1>
     </div>
 </template>
 
 <script>
-    export default {
-        name:"prova",
-        Props:{
-            info:Array
-        },
 
+
+    export default {
+        name:'Home',
     }
 </script>
 
