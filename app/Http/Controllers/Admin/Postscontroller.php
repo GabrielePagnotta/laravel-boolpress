@@ -72,10 +72,10 @@ class Postscontroller extends Controller
         }
 
         // sending email
-        $mail=new PublishedPost();
-        $email_utente=Auth::user()->email;
-        Mail::to($email_utente)->send($mail);
-        return redirect()->route('admin.posts.index');
+        // $mail=new PublishedPost();
+        // $email_utente=Auth::user()->email;
+        // Mail::to($email_utente)->send($mail);
+         return redirect()->route('admin.posts.index');
     }
 
     /**

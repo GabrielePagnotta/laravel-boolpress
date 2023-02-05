@@ -5,6 +5,8 @@ Vue.use(VueRouter)
 
 import Home from './views/pages/Home.vue'
 import Tags from './views/pages/Tags.vue'
+import Posts from './views/pages/Posts.vue'
+
 
 const router = new VueRouter({
 
@@ -19,7 +21,14 @@ const router = new VueRouter({
         path:'/tags',
         name:'tags',
         component:Tags
-    }
+    },
+    {
+        path:'/posts',
+        name:'posts',
+        component:Posts
+    },
+
+
     ]
 })
 

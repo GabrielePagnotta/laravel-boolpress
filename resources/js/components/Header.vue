@@ -14,10 +14,7 @@
             <router-link class="nav-link active" aria-current="page" :to="{ name: 'home' }">Home</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <router-link class="nav-link active" aria-current="page" :to="{ name: 'posts' }">Posts List</router-link>
         </li>
         <li class="nav-item">
             <router-link class="nav-link active" aria-current="page" :to="{ name: 'tags' }">Tags</router-link>
